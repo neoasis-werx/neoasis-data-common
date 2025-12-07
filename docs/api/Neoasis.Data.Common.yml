@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Neoasis.Data.Common
+  commentId: N:Neoasis.Data.Common
+  id: Neoasis.Data.Common
+  children:
+  - Neoasis.Data.Common.Class1
+  - Neoasis.Data.Common.ExampleClass
+  - Neoasis.Data.Common.Person
+  langs:
+  - csharp
+  - vb
+  name: Neoasis.Data.Common
+  nameWithType: Neoasis.Data.Common
+  fullName: Neoasis.Data.Common
+  type: Namespace
+  assemblies:
+  - Neoasis.Data.Common
+references:
+- uid: Neoasis.Data.Common.Class1
+  commentId: T:Neoasis.Data.Common.Class1
+  href: Neoasis.Data.Common.Class1.html
+  name: Class1
+  nameWithType: Class1
+  fullName: Neoasis.Data.Common.Class1
+- uid: Neoasis.Data.Common.ExampleClass
+  commentId: T:Neoasis.Data.Common.ExampleClass
+  href: Neoasis.Data.Common.ExampleClass.html
+  name: ExampleClass
+  nameWithType: ExampleClass
+  fullName: Neoasis.Data.Common.ExampleClass
+- uid: Neoasis.Data.Common.Person
+  commentId: T:Neoasis.Data.Common.Person
+  href: Neoasis.Data.Common.Person.html
+  name: Person
+  nameWithType: Person
+  fullName: Neoasis.Data.Common.Person

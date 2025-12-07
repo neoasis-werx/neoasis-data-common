@@ -1,0 +1,16 @@
+### YamlMime:TableOfContent
+items:
+- uid: Neoasis.Data.Common
+  name: Neoasis.Data.Common
+  type: Namespace
+  items:
+  - uid: Neoasis.Data.Common.Class1
+    name: Class1
+    type: Class
+  - uid: Neoasis.Data.Common.ExampleClass
+    name: ExampleClass
+    type: Class
+  - uid: Neoasis.Data.Common.Person
+    name: Person
+    type: Class
+memberLayout: SamePage

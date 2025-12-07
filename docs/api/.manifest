@@ -1,0 +1,12 @@
+{
+  "Neoasis.Data.Common": "Neoasis.Data.Common.yml",
+  "Neoasis.Data.Common.Class1": "Neoasis.Data.Common.Class1.yml",
+  "Neoasis.Data.Common.Class1.HelloWorld(System.String)": "Neoasis.Data.Common.Class1.yml",
+  "Neoasis.Data.Common.ExampleClass": "Neoasis.Data.Common.ExampleClass.yml",
+  "Neoasis.Data.Common.ExampleClass.Add(System.Int32,System.Int32)": "Neoasis.Data.Common.ExampleClass.yml",
+  "Neoasis.Data.Common.ExampleClass.Label": "Neoasis.Data.Common.ExampleClass.yml",
+  "Neoasis.Data.Common.Person": "Neoasis.Data.Common.Person.yml",
+  "Neoasis.Data.Common.Person.#ctor(System.String,System.String)": "Neoasis.Data.Common.Person.yml",
+  "Neoasis.Data.Common.Person.FirstName": "Neoasis.Data.Common.Person.yml",
+  "Neoasis.Data.Common.Person.LastName": "Neoasis.Data.Common.Person.yml"
+}

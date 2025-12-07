@@ -4,9 +4,44 @@ items:
   commentId: N:Neoasis.Data.Common
   id: Neoasis.Data.Common
   children:
-  - Neoasis.Data.Common.Class1
+  - Neoasis.Data.Common.CompositeKeyCI`1
+  - Neoasis.Data.Common.CompositeKeyCI`2
+  - Neoasis.Data.Common.CompositeKeyCI`3
+  - Neoasis.Data.Common.CompositeKeyCI`4
+  - Neoasis.Data.Common.CompositeKeyCI`5
+  - Neoasis.Data.Common.CompositeKeyCI`6
+  - Neoasis.Data.Common.CompositeKeyCI`7
+  - Neoasis.Data.Common.CompositeKeyCI`8
+  - Neoasis.Data.Common.CompositeKeyN
+  - Neoasis.Data.Common.CompositeKeyNCI
+  - Neoasis.Data.Common.CompositeKey`1
+  - Neoasis.Data.Common.CompositeKey`2
+  - Neoasis.Data.Common.CompositeKey`3
+  - Neoasis.Data.Common.CompositeKey`4
+  - Neoasis.Data.Common.CompositeKey`5
+  - Neoasis.Data.Common.CompositeKey`6
+  - Neoasis.Data.Common.CompositeKey`7
+  - Neoasis.Data.Common.CompositeKey`8
+  - Neoasis.Data.Common.CompositeKeys
   - Neoasis.Data.Common.ExampleClass
   - Neoasis.Data.Common.Person
+  - Neoasis.Data.Common.SortableCompositeKeyCI`1
+  - Neoasis.Data.Common.SortableCompositeKeyCI`2
+  - Neoasis.Data.Common.SortableCompositeKeyCI`3
+  - Neoasis.Data.Common.SortableCompositeKeyCI`4
+  - Neoasis.Data.Common.SortableCompositeKeyCI`5
+  - Neoasis.Data.Common.SortableCompositeKeyCI`6
+  - Neoasis.Data.Common.SortableCompositeKeyCI`7
+  - Neoasis.Data.Common.SortableCompositeKeyCI`8
+  - Neoasis.Data.Common.SortableCompositeKey`1
+  - Neoasis.Data.Common.SortableCompositeKey`2
+  - Neoasis.Data.Common.SortableCompositeKey`3
+  - Neoasis.Data.Common.SortableCompositeKey`4
+  - Neoasis.Data.Common.SortableCompositeKey`5
+  - Neoasis.Data.Common.SortableCompositeKey`6
+  - Neoasis.Data.Common.SortableCompositeKey`7
+  - Neoasis.Data.Common.SortableCompositeKey`8
+  - Neoasis.Data.Common.SortableCompositeKeys
   langs:
   - csharp
   - vb
@@ -17,12 +52,778 @@ items:
   assemblies:
   - Neoasis.Data.Common
 references:
-- uid: Neoasis.Data.Common.Class1
-  commentId: T:Neoasis.Data.Common.Class1
-  href: Neoasis.Data.Common.Class1.html
-  name: Class1
-  nameWithType: Class1
-  fullName: Neoasis.Data.Common.Class1
+- uid: Neoasis.Data.Common.CompositeKeyN
+  commentId: T:Neoasis.Data.Common.CompositeKeyN
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyN.html
+  name: CompositeKeyN
+  nameWithType: CompositeKeyN
+  fullName: Neoasis.Data.Common.CompositeKeyN
+- uid: Neoasis.Data.Common.CompositeKeyNCI
+  commentId: T:Neoasis.Data.Common.CompositeKeyNCI
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyNCI.html
+  name: CompositeKeyNCI
+  nameWithType: CompositeKeyNCI
+  fullName: Neoasis.Data.Common.CompositeKeyNCI
+- uid: Neoasis.Data.Common.CompositeKeys
+  commentId: T:Neoasis.Data.Common.CompositeKeys
+  href: Neoasis.Data.Common.CompositeKeys.html
+  name: CompositeKeys
+  nameWithType: CompositeKeys
+  fullName: Neoasis.Data.Common.CompositeKeys
+- uid: Neoasis.Data.Common.CompositeKey`1
+  commentId: T:Neoasis.Data.Common.CompositeKey`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-1.html
+  name: CompositeKey<T1>
+  nameWithType: CompositeKey<T1>
+  fullName: Neoasis.Data.Common.CompositeKey<T1>
+  nameWithType.vb: CompositeKey(Of T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1)
+  name.vb: CompositeKey(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`1
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`1
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`2
+  commentId: T:Neoasis.Data.Common.CompositeKey`2
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-2.html
+  name: CompositeKey<T1, T2>
+  nameWithType: CompositeKey<T1, T2>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2>
+  nameWithType.vb: CompositeKey(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2)
+  name.vb: CompositeKey(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`2
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`2
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`3
+  commentId: T:Neoasis.Data.Common.CompositeKey`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-3.html
+  name: CompositeKey<T1, T2, T3>
+  nameWithType: CompositeKey<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3)
+  name.vb: CompositeKey(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`4
+  commentId: T:Neoasis.Data.Common.CompositeKey`4
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-4.html
+  name: CompositeKey<T1, T2, T3, T4>
+  nameWithType: CompositeKey<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4)
+  name.vb: CompositeKey(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`4
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`4
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`5
+  commentId: T:Neoasis.Data.Common.CompositeKey`5
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-5.html
+  name: CompositeKey<T1, T2, T3, T4, T5>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`5
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`5
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`6
+  commentId: T:Neoasis.Data.Common.CompositeKey`6
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-6.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`6
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`6
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`7
+  commentId: T:Neoasis.Data.Common.CompositeKey`7
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-7.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`7
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`7
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`8
+  commentId: T:Neoasis.Data.Common.CompositeKey`8
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-8.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`8
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`8
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`1
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  name: CompositeKeyCI<T1>
+  nameWithType: CompositeKeyCI<T1>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1>
+  nameWithType.vb: CompositeKeyCI(Of T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1)
+  name.vb: CompositeKeyCI(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`1
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`1
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`2
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`2
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  name: CompositeKeyCI<T1, T2>
+  nameWithType: CompositeKeyCI<T1, T2>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2)
+  name.vb: CompositeKeyCI(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`2
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`2
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`3
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  name: CompositeKeyCI<T1, T2, T3>
+  nameWithType: CompositeKeyCI<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3)
+  name.vb: CompositeKeyCI(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`3
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`3
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`4
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`4
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  name: CompositeKeyCI<T1, T2, T3, T4>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`4
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`4
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`5
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`5
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`5
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`5
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`6
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`6
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`6
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`6
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`7
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`7
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`7
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`7
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`8
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`8
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`8
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`8
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
 - uid: Neoasis.Data.Common.ExampleClass
   commentId: T:Neoasis.Data.Common.ExampleClass
   href: Neoasis.Data.Common.ExampleClass.html
@@ -35,3 +836,791 @@ references:
   name: Person
   nameWithType: Person
   fullName: Neoasis.Data.Common.Person
+- uid: Neoasis.Data.Common.SortableCompositeKeys
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeys
+  href: Neoasis.Data.Common.SortableCompositeKeys.html
+  name: SortableCompositeKeys
+  nameWithType: SortableCompositeKeys
+  fullName: Neoasis.Data.Common.SortableCompositeKeys
+- uid: Neoasis.Data.Common.SortableCompositeKey`1
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-1.html
+  name: SortableCompositeKey<T1>
+  nameWithType: SortableCompositeKey<T1>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1>
+  nameWithType.vb: SortableCompositeKey(Of T1)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1)
+  name.vb: SortableCompositeKey(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`1
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`1
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`2
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`2
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-2.html
+  name: SortableCompositeKey<T1, T2>
+  nameWithType: SortableCompositeKey<T1, T2>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2)
+  name.vb: SortableCompositeKey(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`2
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`2
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`3
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-3.html
+  name: SortableCompositeKey<T1, T2, T3>
+  nameWithType: SortableCompositeKey<T1, T2, T3>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2, T3>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2, T3)
+  name.vb: SortableCompositeKey(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`3
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`3
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`4
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`4
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-4.html
+  name: SortableCompositeKey<T1, T2, T3, T4>
+  nameWithType: SortableCompositeKey<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2, T3, T4>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2, T3, T4)
+  name.vb: SortableCompositeKey(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`4
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`4
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`5
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`5
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-5.html
+  name: SortableCompositeKey<T1, T2, T3, T4, T5>
+  nameWithType: SortableCompositeKey<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2, T3, T4, T5>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2, T3, T4, T5)
+  name.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`5
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`5
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`6
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`6
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-6.html
+  name: SortableCompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType: SortableCompositeKey<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2, T3, T4, T5, T6)
+  name.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`6
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`6
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`7
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`7
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-7.html
+  name: SortableCompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: SortableCompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`7
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`7
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKey`8
+  commentId: T:Neoasis.Data.Common.SortableCompositeKey`8
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKey-8.html
+  name: SortableCompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: SortableCompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.SortableCompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: SortableCompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`8
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKey`8
+    name: SortableCompositeKey
+    href: Neoasis.Data.Common.SortableCompositeKey-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`1
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-1.html
+  name: SortableCompositeKeyCI<T1>
+  nameWithType: SortableCompositeKeyCI<T1>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1)
+  name.vb: SortableCompositeKeyCI(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`1
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`1
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`2
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`2
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-2.html
+  name: SortableCompositeKeyCI<T1, T2>
+  nameWithType: SortableCompositeKeyCI<T1, T2>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2)
+  name.vb: SortableCompositeKeyCI(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`2
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`2
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`3
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-3.html
+  name: SortableCompositeKeyCI<T1, T2, T3>
+  nameWithType: SortableCompositeKeyCI<T1, T2, T3>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2, T3>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2, T3)
+  name.vb: SortableCompositeKeyCI(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`3
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`3
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`4
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`4
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-4.html
+  name: SortableCompositeKeyCI<T1, T2, T3, T4>
+  nameWithType: SortableCompositeKeyCI<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2, T3, T4>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2, T3, T4)
+  name.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`4
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`4
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`5
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`5
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-5.html
+  name: SortableCompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType: SortableCompositeKeyCI<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2, T3, T4, T5)
+  name.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`5
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`5
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`6
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`6
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-6.html
+  name: SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType: SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  name.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`6
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`6
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`7
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`7
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-7.html
+  name: SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`7
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`7
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyCI`8
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyCI`8
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyCI-8.html
+  name: SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: SortableCompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`8
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyCI`8
+    name: SortableCompositeKeyCI
+    href: Neoasis.Data.Common.SortableCompositeKeyCI-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: Neoasis.Data.Common
+  commentId: N:Neoasis.Data.Common
+  href: Neoasis.html
+  name: Neoasis.Data.Common
+  nameWithType: Neoasis.Data.Common
+  fullName: Neoasis.Data.Common
+  spec.csharp:
+  - uid: Neoasis
+    name: Neoasis
+    href: Neoasis.html
+  - name: .
+  - uid: Neoasis.Data
+    name: Data
+    href: Neoasis.Data.html
+  - name: .
+  - uid: Neoasis.Data.Common
+    name: Common
+    href: Neoasis.Data.Common.html
+  spec.vb:
+  - uid: Neoasis
+    name: Neoasis
+    href: Neoasis.html
+  - name: .
+  - uid: Neoasis.Data
+    name: Data
+    href: Neoasis.Data.html
+  - name: .
+  - uid: Neoasis.Data.Common
+    name: Common
+    href: Neoasis.Data.Common.html

@@ -1,0 +1,2807 @@
+### YamlMime:ManagedReference
+items:
+- uid: Neoasis.Data.Common.CompositeKeys
+  commentId: T:Neoasis.Data.Common.CompositeKeys
+  id: CompositeKeys
+  parent: Neoasis.Data.Common
+  children:
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``1(``0)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``2(``0,``1)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``3(``0,``1,``2)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``4(``0,``1,``2,``3)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``5(``0,``1,``2,``3,``4)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``6(``0,``1,``2,``3,``4,``5)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``7(``0,``1,``2,``3,``4,``5,``6)
+  - Neoasis.Data.Common.CompositeKeys.CreateCI``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  - Neoasis.Data.Common.CompositeKeys.Create``1(``0)
+  - Neoasis.Data.Common.CompositeKeys.Create``2(``0,``1)
+  - Neoasis.Data.Common.CompositeKeys.Create``3(``0,``1,``2)
+  - Neoasis.Data.Common.CompositeKeys.Create``4(``0,``1,``2,``3)
+  - Neoasis.Data.Common.CompositeKeys.Create``5(``0,``1,``2,``3,``4)
+  - Neoasis.Data.Common.CompositeKeys.Create``6(``0,``1,``2,``3,``4,``5)
+  - Neoasis.Data.Common.CompositeKeys.Create``7(``0,``1,``2,``3,``4,``5,``6)
+  - Neoasis.Data.Common.CompositeKeys.Create``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  langs:
+  - csharp
+  - vb
+  name: CompositeKeys
+  nameWithType: CompositeKeys
+  fullName: Neoasis.Data.Common.CompositeKeys
+  type: Class
+  source:
+    id: CompositeKeys
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 8
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: >-
+    Provides factory methods for creating strongly-typed composite keys.
+
+    Supports both case-sensitive and case-insensitive key creation for 1-8 components.
+  example: []
+  syntax:
+    content: public static class CompositeKeys
+    content.vb: Public Module CompositeKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Neoasis.Data.Common.CompositeKeys.Create``1(``0)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``1(``0)
+  id: Create``1(``0)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1>(T1)
+  nameWithType: CompositeKeys.Create<T1>(T1)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1>(T1)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 16
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with one component.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1> Create<T1>(T1 item1)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%601" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1)(item1 As T1) As CompositeKey(Of T1)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1)(T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1)(T1)
+  name.vb: Create(Of T1)(T1)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``2(``0,``1)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``2(``0,``1)
+  id: Create``2(``0,``1)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2>(T1, T2)
+  nameWithType: CompositeKeys.Create<T1, T2>(T1, T2)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2>(T1, T2)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 26
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with two components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2> Create<T1, T2>(T1 item1, T2 item2)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%602" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2)(item1 As T1, item2 As T2) As CompositeKey(Of T1, T2)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2)(T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2)(T1, T2)
+  name.vb: Create(Of T1, T2)(T1, T2)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``3(``0,``1,``2)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``3(``0,``1,``2)
+  id: Create``3(``0,``1,``2)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2, T3>(T1, T2, T3)
+  nameWithType: CompositeKeys.Create<T1, T2, T3>(T1, T2, T3)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2, T3>(T1, T2, T3)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 38
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with three components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2, T3> Create<T1, T2, T3>(T1 item1, T2 item2, T3 item3)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%603" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2, T3)(item1 As T1, item2 As T2, item3 As T3) As CompositeKey(Of T1, T2, T3)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2, T3)(T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2, T3)(T1, T2, T3)
+  name.vb: Create(Of T1, T2, T3)(T1, T2, T3)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``4(``0,``1,``2,``3)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``4(``0,``1,``2,``3)
+  id: Create``4(``0,``1,``2,``3)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2, T3, T4>(T1, T2, T3, T4)
+  nameWithType: CompositeKeys.Create<T1, T2, T3, T4>(T1, T2, T3, T4)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2, T3, T4>(T1, T2, T3, T4)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 52
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with four components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2, T3, T4> Create<T1, T2, T3, T4>(T1 item1, T2 item2, T3 item3, T4 item4)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%604" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2, T3, T4)(item1 As T1, item2 As T2, item3 As T3, item4 As T4) As CompositeKey(Of T1, T2, T3, T4)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2, T3, T4)(T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2, T3, T4)(T1, T2, T3, T4)
+  name.vb: Create(Of T1, T2, T3, T4)(T1, T2, T3, T4)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``5(``0,``1,``2,``3,``4)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``5(``0,``1,``2,``3,``4)
+  id: Create``5(``0,``1,``2,``3,``4)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2, T3, T4, T5>(T1, T2, T3, T4, T5)
+  nameWithType: CompositeKeys.Create<T1, T2, T3, T4, T5>(T1, T2, T3, T4, T5)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2, T3, T4, T5>(T1, T2, T3, T4, T5)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 68
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with five components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2, T3, T4, T5> Create<T1, T2, T3, T4, T5>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%605" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2, T3, T4, T5)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5) As CompositeKey(Of T1, T2, T3, T4, T5)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2, T3, T4, T5)(T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2, T3, T4, T5)(T1, T2, T3, T4, T5)
+  name.vb: Create(Of T1, T2, T3, T4, T5)(T1, T2, T3, T4, T5)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``6(``0,``1,``2,``3,``4,``5)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``6(``0,``1,``2,``3,``4,``5)
+  id: Create``6(``0,``1,``2,``3,``4,``5)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2, T3, T4, T5, T6>(T1, T2, T3, T4, T5, T6)
+  nameWithType: CompositeKeys.Create<T1, T2, T3, T4, T5, T6>(T1, T2, T3, T4, T5, T6)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2, T3, T4, T5, T6>(T1, T2, T3, T4, T5, T6)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 86
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with six components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2, T3, T4, T5, T6> Create<T1, T2, T3, T4, T5, T6>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    - id: item6
+      type: '{T6}'
+      description: Sixth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    - id: T6
+      description: Type of the sixth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5},{T6}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%606" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2, T3, T4, T5, T6)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5, item6 As T6) As CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2, T3, T4, T5, T6)(T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2, T3, T4, T5, T6)(T1, T2, T3, T4, T5, T6)
+  name.vb: Create(Of T1, T2, T3, T4, T5, T6)(T1, T2, T3, T4, T5, T6)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``7(``0,``1,``2,``3,``4,``5,``6)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``7(``0,``1,``2,``3,``4,``5,``6)
+  id: Create``7(``0,``1,``2,``3,``4,``5,``6)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2, T3, T4, T5, T6, T7>(T1, T2, T3, T4, T5, T6, T7)
+  nameWithType: CompositeKeys.Create<T1, T2, T3, T4, T5, T6, T7>(T1, T2, T3, T4, T5, T6, T7)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2, T3, T4, T5, T6, T7>(T1, T2, T3, T4, T5, T6, T7)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 106
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with seven components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2, T3, T4, T5, T6, T7> Create<T1, T2, T3, T4, T5, T6, T7>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    - id: item6
+      type: '{T6}'
+      description: Sixth key component.
+    - id: item7
+      type: '{T7}'
+      description: Seventh key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    - id: T6
+      description: Type of the sixth component.
+    - id: T7
+      description: Type of the seventh component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5},{T6},{T7}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%607" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2, T3, T4, T5, T6, T7)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5, item6 As T6, item7 As T7) As CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2, T3, T4, T5, T6, T7)(T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2, T3, T4, T5, T6, T7)(T1, T2, T3, T4, T5, T6, T7)
+  name.vb: Create(Of T1, T2, T3, T4, T5, T6, T7)(T1, T2, T3, T4, T5, T6, T7)
+- uid: Neoasis.Data.Common.CompositeKeys.Create``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.Create``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  id: Create``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: Create<T1, T2, T3, T4, T5, T6, T7, T8>(T1, T2, T3, T4, T5, T6, T7, T8)
+  nameWithType: CompositeKeys.Create<T1, T2, T3, T4, T5, T6, T7, T8>(T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName: Neoasis.Data.Common.CompositeKeys.Create<T1, T2, T3, T4, T5, T6, T7, T8>(T1, T2, T3, T4, T5, T6, T7, T8)
+  type: Method
+  source:
+    id: Create
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 128
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-sensitive composite key with eight components.
+  example: []
+  syntax:
+    content: public static CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8> Create<T1, T2, T3, T4, T5, T6, T7, T8>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7, T8 item8)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    - id: item6
+      type: '{T6}'
+      description: Sixth key component.
+    - id: item7
+      type: '{T7}'
+      description: Seventh key component.
+    - id: item8
+      type: '{T8}'
+      description: Eighth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    - id: T6
+      description: Type of the sixth component.
+    - id: T7
+      description: Type of the seventh component.
+    - id: T8
+      description: Type of the eighth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5},{T6},{T7},{T8}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKey%608" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(Of T1, T2, T3, T4, T5, T6, T7, T8)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5, item6 As T6, item7 As T7, item8 As T8) As CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  overload: Neoasis.Data.Common.CompositeKeys.Create*
+  nameWithType.vb: CompositeKeys.Create(Of T1, T2, T3, T4, T5, T6, T7, T8)(T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.Create(Of T1, T2, T3, T4, T5, T6, T7, T8)(T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: Create(Of T1, T2, T3, T4, T5, T6, T7, T8)(T1, T2, T3, T4, T5, T6, T7, T8)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``1(``0)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``1(``0)
+  id: CreateCI``1(``0)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1>(T1)
+  nameWithType: CompositeKeys.CreateCI<T1>(T1)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1>(T1)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 136
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with one component.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1> CreateCI<T1>(T1 item1)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%601" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1)(item1 As T1) As CompositeKeyCI(Of T1)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1)(T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1)(T1)
+  name.vb: CreateCI(Of T1)(T1)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``2(``0,``1)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``2(``0,``1)
+  id: CreateCI``2(``0,``1)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2>(T1, T2)
+  nameWithType: CompositeKeys.CreateCI<T1, T2>(T1, T2)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2>(T1, T2)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 146
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with two components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2> CreateCI<T1, T2>(T1 item1, T2 item2)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%602" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2)(item1 As T1, item2 As T2) As CompositeKeyCI(Of T1, T2)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2)(T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2)(T1, T2)
+  name.vb: CreateCI(Of T1, T2)(T1, T2)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``3(``0,``1,``2)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``3(``0,``1,``2)
+  id: CreateCI``3(``0,``1,``2)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2, T3>(T1, T2, T3)
+  nameWithType: CompositeKeys.CreateCI<T1, T2, T3>(T1, T2, T3)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2, T3>(T1, T2, T3)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 158
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with three components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2, T3> CreateCI<T1, T2, T3>(T1 item1, T2 item2, T3 item3)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%603" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2, T3)(item1 As T1, item2 As T2, item3 As T3) As CompositeKeyCI(Of T1, T2, T3)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2, T3)(T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2, T3)(T1, T2, T3)
+  name.vb: CreateCI(Of T1, T2, T3)(T1, T2, T3)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``4(``0,``1,``2,``3)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``4(``0,``1,``2,``3)
+  id: CreateCI``4(``0,``1,``2,``3)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2, T3, T4>(T1, T2, T3, T4)
+  nameWithType: CompositeKeys.CreateCI<T1, T2, T3, T4>(T1, T2, T3, T4)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2, T3, T4>(T1, T2, T3, T4)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 172
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with four components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2, T3, T4> CreateCI<T1, T2, T3, T4>(T1 item1, T2 item2, T3 item3, T4 item4)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%604" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2, T3, T4)(item1 As T1, item2 As T2, item3 As T3, item4 As T4) As CompositeKeyCI(Of T1, T2, T3, T4)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2, T3, T4)(T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2, T3, T4)(T1, T2, T3, T4)
+  name.vb: CreateCI(Of T1, T2, T3, T4)(T1, T2, T3, T4)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``5(``0,``1,``2,``3,``4)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``5(``0,``1,``2,``3,``4)
+  id: CreateCI``5(``0,``1,``2,``3,``4)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2, T3, T4, T5>(T1, T2, T3, T4, T5)
+  nameWithType: CompositeKeys.CreateCI<T1, T2, T3, T4, T5>(T1, T2, T3, T4, T5)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2, T3, T4, T5>(T1, T2, T3, T4, T5)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 188
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with five components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2, T3, T4, T5> CreateCI<T1, T2, T3, T4, T5>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%605" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2, T3, T4, T5)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5) As CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5)(T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5)(T1, T2, T3, T4, T5)
+  name.vb: CreateCI(Of T1, T2, T3, T4, T5)(T1, T2, T3, T4, T5)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``6(``0,``1,``2,``3,``4,``5)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``6(``0,``1,``2,``3,``4,``5)
+  id: CreateCI``6(``0,``1,``2,``3,``4,``5)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2, T3, T4, T5, T6>(T1, T2, T3, T4, T5, T6)
+  nameWithType: CompositeKeys.CreateCI<T1, T2, T3, T4, T5, T6>(T1, T2, T3, T4, T5, T6)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2, T3, T4, T5, T6>(T1, T2, T3, T4, T5, T6)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 206
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with six components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2, T3, T4, T5, T6> CreateCI<T1, T2, T3, T4, T5, T6>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    - id: item6
+      type: '{T6}'
+      description: Sixth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    - id: T6
+      description: Type of the sixth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5},{T6}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%606" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2, T3, T4, T5, T6)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5, item6 As T6) As CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5, T6)(T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5, T6)(T1, T2, T3, T4, T5, T6)
+  name.vb: CreateCI(Of T1, T2, T3, T4, T5, T6)(T1, T2, T3, T4, T5, T6)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``7(``0,``1,``2,``3,``4,``5,``6)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``7(``0,``1,``2,``3,``4,``5,``6)
+  id: CreateCI``7(``0,``1,``2,``3,``4,``5,``6)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2, T3, T4, T5, T6, T7>(T1, T2, T3, T4, T5, T6, T7)
+  nameWithType: CompositeKeys.CreateCI<T1, T2, T3, T4, T5, T6, T7>(T1, T2, T3, T4, T5, T6, T7)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2, T3, T4, T5, T6, T7>(T1, T2, T3, T4, T5, T6, T7)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 226
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with seven components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7> CreateCI<T1, T2, T3, T4, T5, T6, T7>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    - id: item6
+      type: '{T6}'
+      description: Sixth key component.
+    - id: item7
+      type: '{T7}'
+      description: Seventh key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    - id: T6
+      description: Type of the sixth component.
+    - id: T7
+      description: Type of the seventh component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5},{T6},{T7}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%607" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2, T3, T4, T5, T6, T7)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5, item6 As T6, item7 As T7) As CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5, T6, T7)(T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5, T6, T7)(T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CreateCI(Of T1, T2, T3, T4, T5, T6, T7)(T1, T2, T3, T4, T5, T6, T7)
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  commentId: M:Neoasis.Data.Common.CompositeKeys.CreateCI``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  id: CreateCI``8(``0,``1,``2,``3,``4,``5,``6,``7)
+  parent: Neoasis.Data.Common.CompositeKeys
+  langs:
+  - csharp
+  - vb
+  name: CreateCI<T1, T2, T3, T4, T5, T6, T7, T8>(T1, T2, T3, T4, T5, T6, T7, T8)
+  nameWithType: CompositeKeys.CreateCI<T1, T2, T3, T4, T5, T6, T7, T8>(T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI<T1, T2, T3, T4, T5, T6, T7, T8>(T1, T2, T3, T4, T5, T6, T7, T8)
+  type: Method
+  source:
+    id: CreateCI
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeys.cs
+    startLine: 248
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Creates a case-insensitive composite key with eight components.
+  example: []
+  syntax:
+    content: public static CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8> CreateCI<T1, T2, T3, T4, T5, T6, T7, T8>(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7, T8 item8)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: First key component.
+    - id: item2
+      type: '{T2}'
+      description: Second key component.
+    - id: item3
+      type: '{T3}'
+      description: Third key component.
+    - id: item4
+      type: '{T4}'
+      description: Fourth key component.
+    - id: item5
+      type: '{T5}'
+      description: Fifth key component.
+    - id: item6
+      type: '{T6}'
+      description: Sixth key component.
+    - id: item7
+      type: '{T7}'
+      description: Seventh key component.
+    - id: item8
+      type: '{T8}'
+      description: Eighth key component.
+    typeParameters:
+    - id: T1
+      description: Type of the first component.
+    - id: T2
+      description: Type of the second component.
+    - id: T3
+      description: Type of the third component.
+    - id: T4
+      description: Type of the fourth component.
+    - id: T5
+      description: Type of the fifth component.
+    - id: T6
+      description: Type of the sixth component.
+    - id: T7
+      description: Type of the seventh component.
+    - id: T8
+      description: Type of the eighth component.
+    return:
+      type: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5},{T6},{T7},{T8}}
+      description: A <xref href="Neoasis.Data.Common.CompositeKeyCI%608" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function CreateCI(Of T1, T2, T3, T4, T5, T6, T7, T8)(item1 As T1, item2 As T2, item3 As T3, item4 As T4, item5 As T5, item6 As T6, item7 As T7, item8 As T8) As CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  overload: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  nameWithType.vb: CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5, T6, T7, T8)(T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKeys.CreateCI(Of T1, T2, T3, T4, T5, T6, T7, T8)(T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CreateCI(Of T1, T2, T3, T4, T5, T6, T7, T8)(T1, T2, T3, T4, T5, T6, T7, T8)
+references:
+- uid: Neoasis.Data.Common
+  commentId: N:Neoasis.Data.Common
+  href: Neoasis.html
+  name: Neoasis.Data.Common
+  nameWithType: Neoasis.Data.Common
+  fullName: Neoasis.Data.Common
+  spec.csharp:
+  - uid: Neoasis
+    name: Neoasis
+    href: Neoasis.html
+  - name: .
+  - uid: Neoasis.Data
+    name: Data
+    href: Neoasis.Data.html
+  - name: .
+  - uid: Neoasis.Data.Common
+    name: Common
+    href: Neoasis.Data.Common.html
+  spec.vb:
+  - uid: Neoasis
+    name: Neoasis
+    href: Neoasis.html
+  - name: .
+  - uid: Neoasis.Data
+    name: Data
+    href: Neoasis.Data.html
+  - name: .
+  - uid: Neoasis.Data.Common
+    name: Common
+    href: Neoasis.Data.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Neoasis.Data.Common.CompositeKey`1
+  commentId: T:Neoasis.Data.Common.CompositeKey`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-1.html
+  name: CompositeKey<T1>
+  nameWithType: CompositeKey<T1>
+  fullName: Neoasis.Data.Common.CompositeKey<T1>
+  nameWithType.vb: CompositeKey(Of T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1)
+  name.vb: CompositeKey(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`1
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`1
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeys.Create*
+  commentId: Overload:Neoasis.Data.Common.CompositeKeys.Create
+  href: Neoasis.Data.Common.CompositeKeys.html#Neoasis_Data_Common_CompositeKeys_Create__1___0_
+  name: Create
+  nameWithType: CompositeKeys.Create
+  fullName: Neoasis.Data.Common.CompositeKeys.Create
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: Neoasis.Data.Common.CompositeKey{{T1}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`1
+  href: Neoasis.Data.Common.CompositeKey-1.html
+  name: CompositeKey<T1>
+  nameWithType: CompositeKey<T1>
+  fullName: Neoasis.Data.Common.CompositeKey<T1>
+  nameWithType.vb: CompositeKey(Of T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1)
+  name.vb: CompositeKey(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`1
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`1
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: Neoasis.Data.Common.CompositeKey`2
+  commentId: T:Neoasis.Data.Common.CompositeKey`2
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-2.html
+  name: CompositeKey<T1, T2>
+  nameWithType: CompositeKey<T1, T2>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2>
+  nameWithType.vb: CompositeKey(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2)
+  name.vb: CompositeKey(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`2
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`2
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`2
+  href: Neoasis.Data.Common.CompositeKey-2.html
+  name: CompositeKey<T1, T2>
+  nameWithType: CompositeKey<T1, T2>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2>
+  nameWithType.vb: CompositeKey(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2)
+  name.vb: CompositeKey(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`2
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`2
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: Neoasis.Data.Common.CompositeKey`3
+  commentId: T:Neoasis.Data.Common.CompositeKey`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-3.html
+  name: CompositeKey<T1, T2, T3>
+  nameWithType: CompositeKey<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3)
+  name.vb: CompositeKey(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: '{T3}'
+  commentId: '!:T3'
+  definition: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1,``2}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`3
+  href: Neoasis.Data.Common.CompositeKey-3.html
+  name: CompositeKey<T1, T2, T3>
+  nameWithType: CompositeKey<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3)
+  name.vb: CompositeKey(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: Neoasis.Data.Common.CompositeKey`4
+  commentId: T:Neoasis.Data.Common.CompositeKey`4
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-4.html
+  name: CompositeKey<T1, T2, T3, T4>
+  nameWithType: CompositeKey<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4)
+  name.vb: CompositeKey(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`4
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`4
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: '{T4}'
+  commentId: '!:T4'
+  definition: T4
+  name: T4
+  nameWithType: T4
+  fullName: T4
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1,``2,``3}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`4
+  href: Neoasis.Data.Common.CompositeKey-4.html
+  name: CompositeKey<T1, T2, T3, T4>
+  nameWithType: CompositeKey<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4)
+  name.vb: CompositeKey(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`4
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`4
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: T4
+  name: T4
+  nameWithType: T4
+  fullName: T4
+- uid: Neoasis.Data.Common.CompositeKey`5
+  commentId: T:Neoasis.Data.Common.CompositeKey`5
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-5.html
+  name: CompositeKey<T1, T2, T3, T4, T5>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`5
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`5
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: '{T5}'
+  commentId: '!:T5'
+  definition: T5
+  name: T5
+  nameWithType: T5
+  fullName: T5
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1,``2,``3,``4}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`5
+  href: Neoasis.Data.Common.CompositeKey-5.html
+  name: CompositeKey<T1, T2, T3, T4, T5>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`5
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`5
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: T5
+  name: T5
+  nameWithType: T5
+  fullName: T5
+- uid: Neoasis.Data.Common.CompositeKey`6
+  commentId: T:Neoasis.Data.Common.CompositeKey`6
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-6.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`6
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`6
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: '{T6}'
+  commentId: '!:T6'
+  definition: T6
+  name: T6
+  nameWithType: T6
+  fullName: T6
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5},{T6}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1,``2,``3,``4,``5}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`6
+  href: Neoasis.Data.Common.CompositeKey-6.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`6
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`6
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: T6
+  name: T6
+  nameWithType: T6
+  fullName: T6
+- uid: Neoasis.Data.Common.CompositeKey`7
+  commentId: T:Neoasis.Data.Common.CompositeKey`7
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-7.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`7
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`7
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: '{T7}'
+  commentId: '!:T7'
+  definition: T7
+  name: T7
+  nameWithType: T7
+  fullName: T7
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5},{T6},{T7}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1,``2,``3,``4,``5,``6}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`7
+  href: Neoasis.Data.Common.CompositeKey-7.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`7
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`7
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: T7
+  name: T7
+  nameWithType: T7
+  fullName: T7
+- uid: Neoasis.Data.Common.CompositeKey`8
+  commentId: T:Neoasis.Data.Common.CompositeKey`8
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-8.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`8
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`8
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: '{T8}'
+  commentId: '!:T8'
+  definition: T8
+  name: T8
+  nameWithType: T8
+  fullName: T8
+- uid: Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3},{T4},{T5},{T6},{T7},{T8}}
+  commentId: T:Neoasis.Data.Common.CompositeKey{``0,``1,``2,``3,``4,``5,``6,``7}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKey`8
+  href: Neoasis.Data.Common.CompositeKey-8.html
+  name: CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CompositeKey(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`8
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`8
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: T8
+  name: T8
+  nameWithType: T8
+  fullName: T8
+- uid: Neoasis.Data.Common.CompositeKeyCI`1
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  name: CompositeKeyCI<T1>
+  nameWithType: CompositeKeyCI<T1>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1>
+  nameWithType.vb: CompositeKeyCI(Of T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1)
+  name.vb: CompositeKeyCI(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`1
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`1
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeys.CreateCI*
+  commentId: Overload:Neoasis.Data.Common.CompositeKeys.CreateCI
+  href: Neoasis.Data.Common.CompositeKeys.html#Neoasis_Data_Common_CompositeKeys_CreateCI__1___0_
+  name: CreateCI
+  nameWithType: CompositeKeys.CreateCI
+  fullName: Neoasis.Data.Common.CompositeKeys.CreateCI
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`1
+  href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  name: CompositeKeyCI<T1>
+  nameWithType: CompositeKeyCI<T1>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1>
+  nameWithType.vb: CompositeKeyCI(Of T1)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1)
+  name.vb: CompositeKeyCI(Of T1)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`1
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`1
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`2
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`2
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  name: CompositeKeyCI<T1, T2>
+  nameWithType: CompositeKeyCI<T1, T2>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2)
+  name.vb: CompositeKeyCI(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`2
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`2
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`2
+  href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  name: CompositeKeyCI<T1, T2>
+  nameWithType: CompositeKeyCI<T1, T2>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2)
+  name.vb: CompositeKeyCI(Of T1, T2)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`2
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`2
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`3
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  name: CompositeKeyCI<T1, T2, T3>
+  nameWithType: CompositeKeyCI<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3)
+  name.vb: CompositeKeyCI(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`3
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`3
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1,``2}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`3
+  href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  name: CompositeKeyCI<T1, T2, T3>
+  nameWithType: CompositeKeyCI<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3)
+  name.vb: CompositeKeyCI(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`3
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`3
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`4
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`4
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  name: CompositeKeyCI<T1, T2, T3, T4>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`4
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`4
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1,``2,``3}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`4
+  href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  name: CompositeKeyCI<T1, T2, T3, T4>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`4
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`4
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-4.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`5
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`5
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`5
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`5
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1,``2,``3,``4}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`5
+  href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`5
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`5
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-5.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`6
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`6
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`6
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`6
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5},{T6}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1,``2,``3,``4,``5}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`6
+  href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`6
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`6
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-6.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`7
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`7
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`7
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`7
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5},{T6},{T7}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1,``2,``3,``4,``5,``6}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`7
+  href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`7
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`7
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-7.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI`8
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI`8
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`8
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`8
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKeyCI{{T1},{T2},{T3},{T4},{T5},{T6},{T7},{T8}}
+  commentId: T:Neoasis.Data.Common.CompositeKeyCI{``0,``1,``2,``3,``4,``5,``6,``7}
+  parent: Neoasis.Data.Common
+  definition: Neoasis.Data.Common.CompositeKeyCI`8
+  href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  name: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType: CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName: Neoasis.Data.Common.CompositeKeyCI<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName.vb: Neoasis.Data.Common.CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  name.vb: CompositeKeyCI(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`8
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKeyCI`8
+    name: CompositeKeyCI
+    href: Neoasis.Data.Common.CompositeKeyCI-8.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: ','
+  - name: " "
+  - name: T6
+  - name: ','
+  - name: " "
+  - name: T7
+  - name: ','
+  - name: " "
+  - name: T8
+  - name: )

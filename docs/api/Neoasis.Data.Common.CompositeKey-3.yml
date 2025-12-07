@@ -1,0 +1,973 @@
+### YamlMime:ManagedReference
+items:
+- uid: Neoasis.Data.Common.CompositeKey`3
+  commentId: T:Neoasis.Data.Common.CompositeKey`3
+  id: CompositeKey`3
+  parent: Neoasis.Data.Common
+  children:
+  - Neoasis.Data.Common.CompositeKey`3.#ctor(`0,`1,`2)
+  - Neoasis.Data.Common.CompositeKey`3.Deconstruct(`0@,`1@,`2@)
+  - Neoasis.Data.Common.CompositeKey`3.Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  - Neoasis.Data.Common.CompositeKey`3.Equals(System.Object)
+  - Neoasis.Data.Common.CompositeKey`3.GetHashCode
+  - Neoasis.Data.Common.CompositeKey`3.Item1
+  - Neoasis.Data.Common.CompositeKey`3.Item2
+  - Neoasis.Data.Common.CompositeKey`3.Item3
+  - Neoasis.Data.Common.CompositeKey`3.ItemCount
+  - Neoasis.Data.Common.CompositeKey`3.op_Equality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  - Neoasis.Data.Common.CompositeKey`3.op_Inequality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  langs:
+  - csharp
+  - vb
+  name: CompositeKey<T1, T2, T3>
+  nameWithType: CompositeKey<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>
+  type: Struct
+  source:
+    id: CompositeKey
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 138
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Represents a composite key consisting of three values of types <code class="typeparamref">T1</code>, <code class="typeparamref">T2</code>, and <code class="typeparamref">T3</code>.
+  example: []
+  syntax:
+    content: 'public readonly struct CompositeKey<T1, T2, T3> : IEquatable<CompositeKey<T1, T2, T3>>'
+    typeParameters:
+    - id: T1
+      description: The type of the first key component.
+    - id: T2
+      description: The type of the second key component.
+    - id: T3
+      description: The type of the third key component.
+    content.vb: Public Structure CompositeKey(Of T1, T2, T3) Implements IEquatable(Of CompositeKey(Of T1, T2, T3))
+  implements:
+  - System.IEquatable{Neoasis.Data.Common.CompositeKey`3}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  nameWithType.vb: CompositeKey(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3)
+  name.vb: CompositeKey(Of T1, T2, T3)
+- uid: Neoasis.Data.Common.CompositeKey`3.ItemCount
+  commentId: P:Neoasis.Data.Common.CompositeKey`3.ItemCount
+  id: ItemCount
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: ItemCount
+  nameWithType: CompositeKey<T1, T2, T3>.ItemCount
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.ItemCount
+  type: Property
+  source:
+    id: ItemCount
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 143
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Gets the number of items in the composite key.
+  example: []
+  syntax:
+    content: public static int ItemCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property ItemCount As Integer
+  overload: Neoasis.Data.Common.CompositeKey`3.ItemCount*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).ItemCount
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).ItemCount
+- uid: Neoasis.Data.Common.CompositeKey`3.Item1
+  commentId: F:Neoasis.Data.Common.CompositeKey`3.Item1
+  id: Item1
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: Item1
+  nameWithType: CompositeKey<T1, T2, T3>.Item1
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Item1
+  type: Field
+  source:
+    id: Item1
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 147
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Gets the first item of the composite key.
+  example: []
+  syntax:
+    content: public readonly T1 Item1
+    return:
+      type: '{T1}'
+    content.vb: Public ReadOnly Item1 As T1
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Item1
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Item1
+- uid: Neoasis.Data.Common.CompositeKey`3.Item2
+  commentId: F:Neoasis.Data.Common.CompositeKey`3.Item2
+  id: Item2
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: Item2
+  nameWithType: CompositeKey<T1, T2, T3>.Item2
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Item2
+  type: Field
+  source:
+    id: Item2
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 151
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Gets the second item of the composite key.
+  example: []
+  syntax:
+    content: public readonly T2 Item2
+    return:
+      type: '{T2}'
+    content.vb: Public ReadOnly Item2 As T2
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Item2
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Item2
+- uid: Neoasis.Data.Common.CompositeKey`3.Item3
+  commentId: F:Neoasis.Data.Common.CompositeKey`3.Item3
+  id: Item3
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: Item3
+  nameWithType: CompositeKey<T1, T2, T3>.Item3
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Item3
+  type: Field
+  source:
+    id: Item3
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 155
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Gets the third item of the composite key.
+  example: []
+  syntax:
+    content: public readonly T3 Item3
+    return:
+      type: '{T3}'
+    content.vb: Public ReadOnly Item3 As T3
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Item3
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Item3
+- uid: Neoasis.Data.Common.CompositeKey`3.#ctor(`0,`1,`2)
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.#ctor(`0,`1,`2)
+  id: '#ctor(`0,`1,`2)'
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: CompositeKey(T1, T2, T3)
+  nameWithType: CompositeKey<T1, T2, T3>.CompositeKey(T1, T2, T3)
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.CompositeKey(T1, T2, T3)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 164
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Initializes a new instance of the <xref href="Neoasis.Data.Common.CompositeKey%603" data-throw-if-not-resolved="false"></xref> struct.
+  example: []
+  syntax:
+    content: public CompositeKey(T1 a, T2 b, T3 c)
+    parameters:
+    - id: a
+      type: '{T1}'
+      description: The first key component.
+    - id: b
+      type: '{T2}'
+      description: The second key component.
+    - id: c
+      type: '{T3}'
+      description: The third key component.
+    content.vb: Public Sub New(a As T1, b As T2, c As T3)
+  overload: Neoasis.Data.Common.CompositeKey`3.#ctor*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).New(T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).New(T1, T2, T3)
+  name.vb: New(T1, T2, T3)
+- uid: Neoasis.Data.Common.CompositeKey`3.Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  id: Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: Equals(CompositeKey<T1, T2, T3>)
+  nameWithType: CompositeKey<T1, T2, T3>.Equals(CompositeKey<T1, T2, T3>)
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Equals(Neoasis.Data.Common.CompositeKey<T1, T2, T3>)
+  type: Method
+  source:
+    id: Equals
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 183
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Determines whether the specified <xref href="Neoasis.Data.Common.CompositeKey%603" data-throw-if-not-resolved="false"></xref> is equal to the current key.
+  example: []
+  syntax:
+    content: public bool Equals(CompositeKey<T1, T2, T3> other)
+    parameters:
+    - id: other
+      type: Neoasis.Data.Common.CompositeKey`3
+      description: The other composite key to compare.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the keys are equal; otherwise, <code>false</code>.
+    content.vb: Public Function Equals(other As CompositeKey(Of T1, T2, T3)) As Boolean
+  overload: Neoasis.Data.Common.CompositeKey`3.Equals*
+  implements:
+  - System.IEquatable{Neoasis.Data.Common.CompositeKey`3}.Equals(Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3}})
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Equals(CompositeKey(Of T1, T2, T3))
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Equals(Neoasis.Data.Common.CompositeKey(Of T1, T2, T3))
+  name.vb: Equals(CompositeKey(Of T1, T2, T3))
+- uid: Neoasis.Data.Common.CompositeKey`3.Equals(System.Object)
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: CompositeKey<T1, T2, T3>.Equals(object?)
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Equals(object?)
+  type: Method
+  source:
+    id: Equals
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 190
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Indicates whether this instance and a specified object are equal.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current instance.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Neoasis.Data.Common.CompositeKey`3.Equals*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Equals(Object)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Equals(Object)
+  name.vb: Equals(Object)
+- uid: Neoasis.Data.Common.CompositeKey`3.GetHashCode
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.GetHashCode
+  id: GetHashCode
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CompositeKey<T1, T2, T3>.GetHashCode()
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 194
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Returns the hash code for this instance.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A 32-bit signed integer that is the hash code for this instance.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Neoasis.Data.Common.CompositeKey`3.GetHashCode*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).GetHashCode()
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).GetHashCode()
+- uid: Neoasis.Data.Common.CompositeKey`3.Deconstruct(`0@,`1@,`2@)
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.Deconstruct(`0@,`1@,`2@)
+  id: Deconstruct(`0@,`1@,`2@)
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct(out T1, out T2, out T3)
+  nameWithType: CompositeKey<T1, T2, T3>.Deconstruct(out T1, out T2, out T3)
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Deconstruct(out T1, out T2, out T3)
+  type: Method
+  source:
+    id: Deconstruct
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 202
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Deconstructs the composite key into its components.
+  example: []
+  syntax:
+    content: public void Deconstruct(out T1 item1, out T2 item2, out T3 item3)
+    parameters:
+    - id: item1
+      type: '{T1}'
+      description: The first key component.
+    - id: item2
+      type: '{T2}'
+      description: The second key component.
+    - id: item3
+      type: '{T3}'
+      description: The third key component.
+    content.vb: Public Sub Deconstruct(item1 As T1, item2 As T2, item3 As T3)
+  overload: Neoasis.Data.Common.CompositeKey`3.Deconstruct*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Deconstruct(T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Deconstruct(T1, T2, T3)
+  name.vb: Deconstruct(T1, T2, T3)
+- uid: Neoasis.Data.Common.CompositeKey`3.op_Equality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.op_Equality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  id: op_Equality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: operator ==(CompositeKey<T1, T2, T3>, CompositeKey<T1, T2, T3>)
+  nameWithType: CompositeKey<T1, T2, T3>.operator ==(CompositeKey<T1, T2, T3>, CompositeKey<T1, T2, T3>)
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.operator ==(Neoasis.Data.Common.CompositeKey<T1, T2, T3>, Neoasis.Data.Common.CompositeKey<T1, T2, T3>)
+  type: Operator
+  source:
+    id: op_Equality
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 212
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Determines whether two composite keys are equal.
+  example: []
+  syntax:
+    content: public static bool operator ==(CompositeKey<T1, T2, T3> a, CompositeKey<T1, T2, T3> b)
+    parameters:
+    - id: a
+      type: Neoasis.Data.Common.CompositeKey`3
+    - id: b
+      type: Neoasis.Data.Common.CompositeKey`3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(a As CompositeKey(Of T1, T2, T3), b As CompositeKey(Of T1, T2, T3)) As Boolean
+  overload: Neoasis.Data.Common.CompositeKey`3.op_Equality*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).=(CompositeKey(Of T1, T2, T3), CompositeKey(Of T1, T2, T3))
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).=(Neoasis.Data.Common.CompositeKey(Of T1, T2, T3), Neoasis.Data.Common.CompositeKey(Of T1, T2, T3))
+  name.vb: =(CompositeKey(Of T1, T2, T3), CompositeKey(Of T1, T2, T3))
+- uid: Neoasis.Data.Common.CompositeKey`3.op_Inequality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  commentId: M:Neoasis.Data.Common.CompositeKey`3.op_Inequality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  id: op_Inequality(Neoasis.Data.Common.CompositeKey{`0,`1,`2},Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  parent: Neoasis.Data.Common.CompositeKey`3
+  langs:
+  - csharp
+  - vb
+  name: operator !=(CompositeKey<T1, T2, T3>, CompositeKey<T1, T2, T3>)
+  nameWithType: CompositeKey<T1, T2, T3>.operator !=(CompositeKey<T1, T2, T3>, CompositeKey<T1, T2, T3>)
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.operator !=(Neoasis.Data.Common.CompositeKey<T1, T2, T3>, Neoasis.Data.Common.CompositeKey<T1, T2, T3>)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: C:\TEMP\DummyRepo\CHI\neoasis-data-common\src\Neoasis.Data.Common\CompositeKeyT1.cs
+    startLine: 216
+  assemblies:
+  - Neoasis.Data.Common
+  namespace: Neoasis.Data.Common
+  summary: Determines whether two composite keys are not equal.
+  example: []
+  syntax:
+    content: public static bool operator !=(CompositeKey<T1, T2, T3> a, CompositeKey<T1, T2, T3> b)
+    parameters:
+    - id: a
+      type: Neoasis.Data.Common.CompositeKey`3
+    - id: b
+      type: Neoasis.Data.Common.CompositeKey`3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(a As CompositeKey(Of T1, T2, T3), b As CompositeKey(Of T1, T2, T3)) As Boolean
+  overload: Neoasis.Data.Common.CompositeKey`3.op_Inequality*
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).<>(CompositeKey(Of T1, T2, T3), CompositeKey(Of T1, T2, T3))
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).<>(Neoasis.Data.Common.CompositeKey(Of T1, T2, T3), Neoasis.Data.Common.CompositeKey(Of T1, T2, T3))
+  name.vb: <>(CompositeKey(Of T1, T2, T3), CompositeKey(Of T1, T2, T3))
+references:
+- uid: Neoasis.Data.Common
+  commentId: N:Neoasis.Data.Common
+  href: Neoasis.html
+  name: Neoasis.Data.Common
+  nameWithType: Neoasis.Data.Common
+  fullName: Neoasis.Data.Common
+  spec.csharp:
+  - uid: Neoasis
+    name: Neoasis
+    href: Neoasis.html
+  - name: .
+  - uid: Neoasis.Data
+    name: Data
+    href: Neoasis.Data.html
+  - name: .
+  - uid: Neoasis.Data.Common
+    name: Common
+    href: Neoasis.Data.Common.html
+  spec.vb:
+  - uid: Neoasis
+    name: Neoasis
+    href: Neoasis.html
+  - name: .
+  - uid: Neoasis.Data
+    name: Data
+    href: Neoasis.Data.html
+  - name: .
+  - uid: Neoasis.Data.Common
+    name: Common
+    href: Neoasis.Data.Common.html
+- uid: System.IEquatable{Neoasis.Data.Common.CompositeKey`3}
+  commentId: T:System.IEquatable{Neoasis.Data.Common.CompositeKey`3}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<CompositeKey<T1, T2, T3>>
+  nameWithType: IEquatable<CompositeKey<T1, T2, T3>>
+  fullName: System.IEquatable<Neoasis.Data.Common.CompositeKey<T1, T2, T3>>
+  nameWithType.vb: IEquatable(Of CompositeKey(Of T1, T2, T3))
+  fullName.vb: System.IEquatable(Of Neoasis.Data.Common.CompositeKey(Of T1, T2, T3))
+  name.vb: IEquatable(Of CompositeKey(Of T1, T2, T3))
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Neoasis.Data.Common.CompositeKey`3.ItemCount*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.ItemCount
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_ItemCount
+  name: ItemCount
+  nameWithType: CompositeKey<T1, T2, T3>.ItemCount
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.ItemCount
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).ItemCount
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).ItemCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: '{T3}'
+  commentId: '!:T3'
+  definition: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: Neoasis.Data.Common.CompositeKey`3
+  commentId: T:Neoasis.Data.Common.CompositeKey`3
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.CompositeKey-3.html
+  name: CompositeKey<T1, T2, T3>
+  nameWithType: CompositeKey<T1, T2, T3>
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>
+  nameWithType.vb: CompositeKey(Of T1, T2, T3)
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3)
+  name.vb: CompositeKey(Of T1, T2, T3)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`3.#ctor*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.#ctor
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3__ctor__0__1__2_
+  name: CompositeKey
+  nameWithType: CompositeKey<T1, T2, T3>.CompositeKey
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.CompositeKey
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).New
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).New
+  name.vb: New
+- uid: Neoasis.Data.Common.CompositeKey`3.Equals*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.Equals
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_Equals_Neoasis_Data_Common_CompositeKey__0__1__2__
+  name: Equals
+  nameWithType: CompositeKey<T1, T2, T3>.Equals
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Equals
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Equals
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Equals
+- uid: System.IEquatable{Neoasis.Data.Common.CompositeKey`3}.Equals(Neoasis.Data.Common.CompositeKey{{T1},{T2},{T3}})
+  commentId: M:System.IEquatable{Neoasis.Data.Common.CompositeKey`3}.Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+  parent: System.IEquatable{Neoasis.Data.Common.CompositeKey`3}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(CompositeKey<T1, T2, T3>)
+  nameWithType: IEquatable<CompositeKey<T1, T2, T3>>.Equals(CompositeKey<T1, T2, T3>)
+  fullName: System.IEquatable<Neoasis.Data.Common.CompositeKey<T1, T2, T3>>.Equals(Neoasis.Data.Common.CompositeKey<T1, T2, T3>)
+  nameWithType.vb: IEquatable(Of CompositeKey(Of T1, T2, T3)).Equals(CompositeKey(Of T1, T2, T3))
+  fullName.vb: System.IEquatable(Of Neoasis.Data.Common.CompositeKey(Of T1, T2, T3)).Equals(Neoasis.Data.Common.CompositeKey(Of T1, T2, T3))
+  name.vb: Equals(CompositeKey(Of T1, T2, T3))
+  spec.csharp:
+  - uid: System.IEquatable{Neoasis.Data.Common.CompositeKey`3}.Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Neoasis.Data.Common.CompositeKey`3}.Equals(Neoasis.Data.Common.CompositeKey{`0,`1,`2})
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Neoasis.Data.Common.CompositeKey`3
+    name: CompositeKey
+    href: Neoasis.Data.Common.CompositeKey-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: Neoasis.Data.Common.CompositeKey`3.GetHashCode*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.GetHashCode
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_GetHashCode
+  name: GetHashCode
+  nameWithType: CompositeKey<T1, T2, T3>.GetHashCode
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.GetHashCode
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).GetHashCode
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).GetHashCode
+- uid: Neoasis.Data.Common.CompositeKey`3.Deconstruct*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.Deconstruct
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_Deconstruct__0___1___2__
+  name: Deconstruct
+  nameWithType: CompositeKey<T1, T2, T3>.Deconstruct
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.Deconstruct
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).Deconstruct
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).Deconstruct
+- uid: Neoasis.Data.Common.CompositeKey`3.op_Equality*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.op_Equality
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_op_Equality_Neoasis_Data_Common_CompositeKey__0__1__2__Neoasis_Data_Common_CompositeKey__0__1__2__
+  name: operator ==
+  nameWithType: CompositeKey<T1, T2, T3>.operator ==
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.operator ==
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).=
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Neoasis.Data.Common.CompositeKey`3.op_Equality*
+    name: ==
+    href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_op_Equality_Neoasis_Data_Common_CompositeKey__0__1__2__Neoasis_Data_Common_CompositeKey__0__1__2__
+- uid: Neoasis.Data.Common.CompositeKey`3.op_Inequality*
+  commentId: Overload:Neoasis.Data.Common.CompositeKey`3.op_Inequality
+  href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_op_Inequality_Neoasis_Data_Common_CompositeKey__0__1__2__Neoasis_Data_Common_CompositeKey__0__1__2__
+  name: operator !=
+  nameWithType: CompositeKey<T1, T2, T3>.operator !=
+  fullName: Neoasis.Data.Common.CompositeKey<T1, T2, T3>.operator !=
+  nameWithType.vb: CompositeKey(Of T1, T2, T3).<>
+  fullName.vb: Neoasis.Data.Common.CompositeKey(Of T1, T2, T3).<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Neoasis.Data.Common.CompositeKey`3.op_Inequality*
+    name: '!='
+    href: Neoasis.Data.Common.CompositeKey-3.html#Neoasis_Data_Common_CompositeKey_3_op_Inequality_Neoasis_Data_Common_CompositeKey__0__1__2__Neoasis_Data_Common_CompositeKey__0__1__2__

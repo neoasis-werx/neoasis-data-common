@@ -43,9 +43,9 @@ namespace Neoasis.Data.Common
     public readonly struct SortableCompositeKeyN<T> : IEquatable<SortableCompositeKeyN<T>>, IComparable<SortableCompositeKeyN<T>> where T : IComparable<T>
     {
         /// <summary>
-        /// Gets the items in the composite key.
+        /// Gets the items in the composite key as a read-only array.
         /// </summary>
-        public readonly T[] Items;
+        private readonly T[] _items;
         private readonly int _hash;
 
         /// <summary>
@@ -54,11 +54,11 @@ namespace Neoasis.Data.Common
         /// <param name="items">The items to include in the key.</param>
         public SortableCompositeKeyN(T[] items)
         {
-            Items = items;
+            _items = (T[])items.Clone();
             int h = 17;
             unchecked
             {
-                foreach (var item in items)
+                foreach (var item in _items)
                 {
                     h = h * 31 + CKComparer.HashField(item!);
                 }
@@ -73,11 +73,11 @@ namespace Neoasis.Data.Common
         /// <returns>True if equal; otherwise, false.</returns>
         public bool Equals(SortableCompositeKeyN<T> other)
         {
-            if (_hash != other._hash || Items.Length != other.Items.Length)
+            if (_hash != other._hash || _items.Length != other._items.Length)
                 return false;
-            for (int i = 0; i < Items.Length; i++)
+            for (int i = 0; i < _items.Length; i++)
             {
-                if (!CKComparer.EqualsField(Items[i], other.Items[i]))
+                if (!CKComparer.EqualsField(_items[i], other._items[i]))
                     return false;
             }
             return true;
@@ -97,13 +97,13 @@ namespace Neoasis.Data.Common
         /// <returns>A value indicating the relative order.</returns>
         public int CompareTo(SortableCompositeKeyN<T> other)
         {
-            int len = Math.Min(Items.Length, other.Items.Length);
+            int len = Math.Min(_items.Length, other._items.Length);
             for (int i = 0; i < len; i++)
             {
-                int cmp = Items[i].CompareTo(other.Items[i]);
+                int cmp = _items[i].CompareTo(other._items[i]);
                 if (cmp != 0) return cmp;
             }
-            return Items.Length.CompareTo(other.Items.Length);
+            return _items.Length.CompareTo(other._items.Length);
         }
 
         /// <summary>
@@ -112,7 +112,7 @@ namespace Neoasis.Data.Common
         /// <param name="items">The items in the key.</param>
         public void Deconstruct(out T[] items)
         {
-            items = Items;
+            items = (T[])_items.Clone();
         }
 
         /// <summary>
@@ -139,6 +139,10 @@ namespace Neoasis.Data.Common
         /// Greater than or equal operator.
         /// </summary>
         public static bool operator >=(SortableCompositeKeyN<T> a, SortableCompositeKeyN<T> b) => a.CompareTo(b) >= 0;
+        /// <summary>
+        /// Gets a copy of the items in the composite key.
+        /// </summary>
+        public T[] Items => (T[])_items.Clone();
     }
 
     /// <summary>
@@ -148,9 +152,9 @@ namespace Neoasis.Data.Common
     public readonly struct SortableCompositeKeyNCI<T> : IEquatable<SortableCompositeKeyNCI<T>>, IComparable<SortableCompositeKeyNCI<T>> where T : IComparable<T>
     {
         /// <summary>
-        /// Gets the items in the composite key.
+        /// Gets the items in the composite key as a read-only array.
         /// </summary>
-        public readonly T[] Items;
+        private readonly T[] _items;
         private readonly int _hash;
 
         /// <summary>
@@ -159,11 +163,11 @@ namespace Neoasis.Data.Common
         /// <param name="items">The items to include in the key.</param>
         public SortableCompositeKeyNCI(T[] items)
         {
-            Items = items;
+            _items = (T[])items.Clone();
             int h = 17;
             unchecked
             {
-                foreach (var item in items)
+                foreach (var item in _items)
                 {
                     h = h * 31 + CKComparerCI.HashField(item!);
                 }
@@ -178,11 +182,11 @@ namespace Neoasis.Data.Common
         /// <returns>True if equal; otherwise, false.</returns>
         public bool Equals(SortableCompositeKeyNCI<T> other)
         {
-            if (_hash != other._hash || Items.Length != other.Items.Length)
+            if (_hash != other._hash || _items.Length != other._items.Length)
                 return false;
-            for (int i = 0; i < Items.Length; i++)
+            for (int i = 0; i < _items.Length; i++)
             {
-                if (!CKComparerCI.EqualsField(Items[i], other.Items[i]))
+                if (!CKComparerCI.EqualsField(_items[i], other._items[i]))
                     return false;
             }
             return true;
@@ -202,13 +206,13 @@ namespace Neoasis.Data.Common
         /// <returns>A value indicating the relative order.</returns>
         public int CompareTo(SortableCompositeKeyNCI<T> other)
         {
-            int len = Math.Min(Items.Length, other.Items.Length);
+            int len = Math.Min(_items.Length, other._items.Length);
             for (int i = 0; i < len; i++)
             {
-                int cmp = CKComparerSortable.CompareField(Items[i], other.Items[i]);
+                int cmp = CKComparerSortable.CompareField(_items[i], other._items[i]);
                 if (cmp != 0) return cmp;
             }
-            return Items.Length.CompareTo(other.Items.Length);
+            return _items.Length.CompareTo(other._items.Length);
         }
 
         /// <summary>
@@ -217,7 +221,7 @@ namespace Neoasis.Data.Common
         /// <param name="items">The items in the key.</param>
         public void Deconstruct(out T[] items)
         {
-            items = Items;
+            items = (T[])_items.Clone();
         }
 
         /// <summary>
@@ -244,5 +248,9 @@ namespace Neoasis.Data.Common
         /// Greater than or equal operator.
         /// </summary>
         public static bool operator >=(SortableCompositeKeyNCI<T> a, SortableCompositeKeyNCI<T> b) => a.CompareTo(b) >= 0;
+        /// <summary>
+        /// Gets a copy of the items in the composite key.
+        /// </summary>
+        public T[] Items => (T[])_items.Clone();
     }
 }

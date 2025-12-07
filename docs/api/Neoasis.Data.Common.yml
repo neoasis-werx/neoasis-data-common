@@ -33,6 +33,8 @@ items:
   - Neoasis.Data.Common.SortableCompositeKeyCI`6
   - Neoasis.Data.Common.SortableCompositeKeyCI`7
   - Neoasis.Data.Common.SortableCompositeKeyCI`8
+  - Neoasis.Data.Common.SortableCompositeKeyNCI`1
+  - Neoasis.Data.Common.SortableCompositeKeyN`1
   - Neoasis.Data.Common.SortableCompositeKey`1
   - Neoasis.Data.Common.SortableCompositeKey`2
   - Neoasis.Data.Common.SortableCompositeKey`3
@@ -42,6 +44,8 @@ items:
   - Neoasis.Data.Common.SortableCompositeKey`7
   - Neoasis.Data.Common.SortableCompositeKey`8
   - Neoasis.Data.Common.SortableCompositeKeys
+  - Neoasis.Data.Common.SortableCompositeKeysN
+  - Neoasis.Data.Common.SortableCompositeKeysNCI
   langs:
   - csharp
   - vb
@@ -842,6 +846,70 @@ references:
   name: SortableCompositeKeys
   nameWithType: SortableCompositeKeys
   fullName: Neoasis.Data.Common.SortableCompositeKeys
+- uid: Neoasis.Data.Common.SortableCompositeKeysN
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeysN
+  href: Neoasis.Data.Common.SortableCompositeKeysN.html
+  name: SortableCompositeKeysN
+  nameWithType: SortableCompositeKeysN
+  fullName: Neoasis.Data.Common.SortableCompositeKeysN
+- uid: Neoasis.Data.Common.SortableCompositeKeysNCI
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeysNCI
+  href: Neoasis.Data.Common.SortableCompositeKeysNCI.html
+  name: SortableCompositeKeysNCI
+  nameWithType: SortableCompositeKeysNCI
+  fullName: Neoasis.Data.Common.SortableCompositeKeysNCI
+- uid: Neoasis.Data.Common.SortableCompositeKeyN`1
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyN`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyN-1.html
+  name: SortableCompositeKeyN<T>
+  nameWithType: SortableCompositeKeyN<T>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyN<T>
+  nameWithType.vb: SortableCompositeKeyN(Of T)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyN(Of T)
+  name.vb: SortableCompositeKeyN(Of T)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyN`1
+    name: SortableCompositeKeyN
+    href: Neoasis.Data.Common.SortableCompositeKeyN-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyN`1
+    name: SortableCompositeKeyN
+    href: Neoasis.Data.Common.SortableCompositeKeyN-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Neoasis.Data.Common.SortableCompositeKeyNCI`1
+  commentId: T:Neoasis.Data.Common.SortableCompositeKeyNCI`1
+  parent: Neoasis.Data.Common
+  href: Neoasis.Data.Common.SortableCompositeKeyNCI-1.html
+  name: SortableCompositeKeyNCI<T>
+  nameWithType: SortableCompositeKeyNCI<T>
+  fullName: Neoasis.Data.Common.SortableCompositeKeyNCI<T>
+  nameWithType.vb: SortableCompositeKeyNCI(Of T)
+  fullName.vb: Neoasis.Data.Common.SortableCompositeKeyNCI(Of T)
+  name.vb: SortableCompositeKeyNCI(Of T)
+  spec.csharp:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyNCI`1
+    name: SortableCompositeKeyNCI
+    href: Neoasis.Data.Common.SortableCompositeKeyNCI-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Neoasis.Data.Common.SortableCompositeKeyNCI`1
+    name: SortableCompositeKeyNCI
+    href: Neoasis.Data.Common.SortableCompositeKeyNCI-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: Neoasis.Data.Common.SortableCompositeKey`1
   commentId: T:Neoasis.Data.Common.SortableCompositeKey`1
   parent: Neoasis.Data.Common

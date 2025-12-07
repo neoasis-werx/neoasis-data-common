@@ -1,4 +1,4 @@
-# Neoasis - CHI Neoasis.Data.Common
+# Neoasis - Neoasis.Data.Common
 
 ## Overview
 
